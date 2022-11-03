@@ -1,5 +1,6 @@
 # pidrone
-Computer Vision Project, Computational Robotics Fall 2022
+Computer Vision Project, Computational Robotics Fall 2022  
+
 Tigey Jewell-Alibhai and Lilo Heinrich
 
 ### Goal
