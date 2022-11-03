@@ -29,11 +29,7 @@ The camera stream was lagging significantly on the offboard laptop, so onboard c
 Some challenges we encountered were that system setup took about two weeks of time and we were often using a monitor to troubleshoot or visualize what was going on on the raspberry pi. We also didn't have propellers until the last week, and then discovered that controlling the drone to fly needed some troubleshooting as it was not behaving as we had expected/hoped for. Also, we are still unable to echo many mavros topics and think there must be a setup issue. We'd really like to be able to echo mavros topics so that the pi can understand the state of the drone and also so that we can debug the drone control issues more effectively. It turns out autonomous flight is a difficult thing to implement and integration takes a long time. In retrospect, it might have been better to start actually flying the droone and working on the control and localization side earlier in the project.
 
 ### Improvements
-- platform
-- more control over the drone's movements
-- should be getting ros topics back
-- want to know raw sensor outputs
-- wish apriltags (originally we wanted to) - detect, track, localize in relation
+Going forward, we've built up this drone platform and we'd like to continue working with it in our final project. Some things we would like to work on are developing more control over the drone's movements, detecting and localizing the drone based on apriltags, or perhaps even adding a realsense camera.
 
 ### Lessons Learned
 - fly earlier
