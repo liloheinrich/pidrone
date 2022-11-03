@@ -32,4 +32,4 @@ Some challenges we encountered were that system setup took about two weeks of ti
 Going forward, we've built up this drone platform and we'd like to continue working with it in our final project. Some things we would like to work on are developing more control over the drone's movements, detecting and localizing the drone based on apriltags, or perhaps even adding a realsense camera.
 
 ### Lessons Learned
-- fly earlier
+Start flight testing earlier.
