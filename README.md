@@ -26,7 +26,7 @@ This color-detection algorithm is rather simple but also very effective. To make
 The camera stream was lagging significantly on the offboard laptop, so onboard control was a smart decision, as well as keeping our resolution low to keep the program running faster and take less time to process images. We wanted to put the raspi on the OLIN-DEVICES network rather than its own wifi network to increase the drone's autonomous range, but unfortunately this change messed up our ability to communicate to the drone in ROS because we needed to communicate to the pi through its hostname which was not working on OLIN-DEVICES, so we reverted this change. 
 
 ### Challenges
-
+Some challenges we encountered were that system setup took about 2 weeks of time and we were often using a monitor to troubleshoot or visualize what was going on on the raspberry pi. We also didn't have propellers until the last week, and then discovered that controlling the drone to fly needed some troubleshooting as it was not behaving as we had expected/hoped for. Also, we are still unable to echo many mavros topics and think there must be a setup issue. We'd really like to be able to echo mavros topics so that the pi can understand the state of the drone and also so that we can debug the drone control issues more effectively. It turns out autonomous flight is a difficult thing to implement.
 
 ### Improvements
 - more control over the drone's movements
