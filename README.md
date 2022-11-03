@@ -14,9 +14,9 @@ This project was equally about systems design and computer vision. On the system
 ### Design Decisions
 The color-based detection algorithm used the following steps to process the image:  
 1. Hue-Saturation-Value filter (minimum and maximum value thresholds calibrated as needed)    
-  a. Filters each pixel. If the color is within the threshold ranges it is a 1 in the binary mask, otherwise 0.  
+  a. If the color is within the threshold ranges it is a 1 in the binary mask, otherwise 0.  
 2. Find & Filter Contours on minimum area, width, height, solidity, and ratio  
-  a. This helps filter out noise or things that aren't actually objects of the right size   
+  a. Helps filter out noise or things that aren't actually objects of the right size   
 3. Find the x & y pixels as well as width and height of the contour with the largest area. If none, then no object detected.   
   a. Picking the object with the largest area is likely the object that we want it to detect (the best match or closest object of the correct color).  
 4. To fly, hold at a certain altitude and yaw with an angular velocity proportional to how many pixels the x-coordinate is from the center of the screen.  
