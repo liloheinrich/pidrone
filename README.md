@@ -1,8 +1,10 @@
 # pidrone
+
+<img align="right" src="https://github.com/liloheinrich/pidrone/blob/main/IMG_3286_2.gif" width="500"/>
+
+
 Computer Vision Project, Computational Robotics Fall 2022  
 Tigey Jewell-Alibhai and Lilo Heinrich
-
-<img align="left" src="https://github.com/liloheinrich/pidrone/blob/main/IMG_3286_2.gif" width="500"/>
 
 ### Goal
 Make a drone fly autonomously towards a color-detected object.
