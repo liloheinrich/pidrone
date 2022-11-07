@@ -28,7 +28,7 @@ The color-based detection algorithm used the following steps to process the imag
 2. Find & Filter Contours on minimum area, width, height, solidity, and ratio  
   a. Helps filter out noise or things that aren't actually objects of the right size   
 3. Find x, y, width, height of the contour with the largest area. If none, then no object detected.   
-  a. Picking the object with the largest area is likely the object that we want it to detect (closest/largest object of the correct color).  
+  a. The object with the largest area is likely what we want it to detect (closest/largest object with that color).  
 4. To fly, hold at some altitude and yaw with an angular velocity proportional to how many pixels the x location is from center.  
 
 <!-- - (picture of grip pipeline, maybe a side by side of seeing t shirt vs not bc backlit) -->
