@@ -1,7 +1,7 @@
 
 <img align="right" src="https://github.com/liloheinrich/pidrone/blob/main/IMG_3286_2.gif" width="500"/>
 
-## Pi Drone
+## UAV Control
 
 Computer Vision Project  
 Computational Robotics Fall 2022  
