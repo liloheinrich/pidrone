@@ -8,9 +8,10 @@ Make a drone fly autonomously towards a color-detected object.
 - (videos of flying and color detecting)
 
 ### Solution
-- (system diagram here)
+This project was equally about systems design and computer vision. On the systems side, we created a drone platform which can be flown from ROS on the Raspberry Pi. On the Computer Vision side, we got a raspberry pi camera working and streaming the image data which can be viewed on a laptop from the ground as well as color-based object detection. We got started by following the examples of using ROS on the ArduCopter website.
 
-This project was equally about systems design and computer vision. On the systems side, we worked on creating a drone platform which can be flown from ROS on the Raspberry Pi. On the Computer Vision side, we worked on getting a raspberry pi camera working and streaming the image data to be able to view it on a laptop from the ground, as well as color-based object detection. We got started by following the examples of using ROS on the ArduCopter website.
+- (system diagram here)  
+
 
 ### Design Decisions
 The color-based detection algorithm used the following steps to process the image:  
