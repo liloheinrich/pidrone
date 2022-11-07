@@ -39,4 +39,4 @@ Also, we are still unable to echo many mavros topics and think there must be a s
 Going forward, we've built up this drone platform and we'd like to continue working with it in our final project. Some things we would like to work on are developing more control over the drone's movements, detecting and localizing the drone based on apriltags, or perhaps even adding a realsense camera.
 
 ### Lessons Learned
-Start flight testing earlier.
+Start flight testing and working in your intended environment earlier.
