@@ -32,12 +32,10 @@ This color-detection algorithm is rather simple but effective. To make this algo
 The camera stream was lagging significantly on the offboard laptop, so onboard control was a smart decision, as well as keeping our resolution low to keep the program running faster and take less time to process images. We wanted to put the raspi on the OLIN-DEVICES network rather than its own wifi network to increase the drone's autonomous range, but unfortunately this change messed up our ability to communicate to the drone in ROS because we needed to communicate to the pi through its hostname which was not working on OLIN-DEVICES, so we reverted this change. 
 
 ### Challenges
-Some challenges we encountered were that system setup took about two weeks of time and we were often using a monitor to troubleshoot or visualize what was going on on the raspberry pi. We also didn't have propellers until the last week, and then during flight testing discovered that controlling the drone to fly needed some troubleshooting as it was not behaving as we had expected/hoped for. 
-
-Also, we are still unable to echo many mavros topics and think there must be a setup issue. We'd really like to be able to echo mavros topics so that the pi can understand the state of the drone and also so that we can debug the drone control issues more effectively. It turns out autonomous flight is a difficult thing to implement and integration takes a long time. In retrospect, it would've been better to start flying the drone and working on the control and localization side earlier in the project.
+System setup took about two weeks of time and we were often using a monitor to troubleshoot or visualize what was going on on the raspberry pi, so we didn't move outside until the very last week. We also didn't have propellers until then, so during flight testing we discovered that controlling the drone to fly needed troubleshooting as it was not behaving as we had expected/hoped for. Also, we are still unable to echo many mavros topics from the pi. We would've liked the pi to be able to understand the state of the drone and make it easier to debug the drone control issues. 
 
 ### Improvements
 Going forward, we've built up this drone platform and we'd like to continue working with it in our final project. Some things we would like to work on are developing more control over the drone's movements, detecting and localizing the drone based on apriltags, or perhaps even adding a realsense camera.
 
 ### Lessons Learned
-Start flight testing and working in your intended environment earlier.
+Autonomous flight is a difficult thing to implement and integration takes a long time. In retrospect, it would've been better to start flying the drone and working on the control and localization part earlier in the project. In general, I think we learned that we need to start flight testing and working in our intended environment earlier.
