@@ -1,3 +1,9 @@
+<!-- 
+todo:
+- update vision.py
+- add command cheatsheet
+- better results vids/images]
+ -->
 
 <img align="right" src="https://github.com/liloheinrich/uav-control/blob/main/img/IMG_3286.gif" width="500"/>
 
