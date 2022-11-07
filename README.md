@@ -25,7 +25,7 @@ The color-based detection algorithm used the following steps to process the imag
 
 - (picture of grip pipeline)
 
-This color-detection algorithm is rather simple but effective. To make this algorithm work, we needed an object with a contrasting color to our background so we at first chose a neon yellow helmet. However, green grass as a close color to yellow and the helmet was glossy, worsening glare. The weaknesses of color filtering are that under different lighting conditions/environments our algorithm might have to be recalibrated, and that the angle of the camera in relation to the sun causes some images to be very backlit which we only realized once we moved outside. In the end we decided to track purple t shirts because they had a contrasting and easy to pick out color as well as a matte finish instead of glossy. Our color tracking algorithm works most of the time, but not under very backlit conditions.
+This color-detection algorithm is rather simple but effective. To make this algorithm work, we needed an object with a contrasting color to our background so we at first chose a neon yellow helmet. However, green grass as a close color to yellow and the helmet was glossy, worsening glare. We switched to tracking purple T-shirts because they had a contrasting and easy to pick out color as well as a matte finish instead of glossy. The weaknesses of color filtering are that under different lighting conditions/environments our algorithm has to be recalibrated, and that the angle of the camera in relation to the sun causes some images to be very backlit which we only realized once we moved outside. Our color tracking algorithm works most of the time but not under very backlit conditions.
 
 - (side by side of seeing t shirt vs not bc backlit)
 
