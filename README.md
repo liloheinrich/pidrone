@@ -1,5 +1,5 @@
 
-<img align="right" src="https://github.com/liloheinrich/pidrone/blob/main/IMG_3286_2.gif" width="500"/>
+<img align="right" src="https://github.com/liloheinrich/uav-control/blob/main/IMG_3286_2.gif" width="500"/>
 
 ## UAV Control
 
