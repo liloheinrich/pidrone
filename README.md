@@ -30,6 +30,7 @@ The color-based detection algorithm used the following steps to process the imag
 3. Find x, y, width, height of the contour with the largest area. If none, then no object detected.   
   a. The object with the largest area is likely what we want it to detect (closest/largest object with that color).  
 4. To fly, hold fixed altitude and yaw with angular velocity proportional to how far the x pixel location is from center.  
+  a. This is for safety, we want to yaw and not to translate (don't fly towards and attack the person).
 
 <!-- - (picture of grip pipeline, maybe a side by side of seeing t shirt vs not bc backlit) -->
 <img width="800" src="https://github.com/liloheinrich/pidrone/blob/main/IMG_3296.gif"/>
