@@ -32,7 +32,7 @@ The color-based detection algorithm used the following steps to process the imag
 4. To fly, hold fixed altitude and yaw with angular velocity proportional to how far the x pixel location is from center.  
 
 <!-- - (picture of grip pipeline, maybe a side by side of seeing t shirt vs not bc backlit) -->
-<img width="600" src="https://github.com/liloheinrich/pidrone/blob/main/IMG_3296.gif"/>
+<img width="800" src="https://github.com/liloheinrich/pidrone/blob/main/IMG_3296.gif"/>
 
 Color-detection algorithms are simple but effective. We needed an object with a contrasting color to our background so we at first chose a neon yellow helmet. However, grass as a close color and the helmet was glossy, creating glare. We switched to purple T-shirts which have a contrasting color as well as nonreflective. Some weaknesses of color filtering are that under different lighting conditions/environments our algorithm has to be recalibrated, and that the angle of the camera in relation to the sun causes some images to be very backlit which we only realized once we moved outside. Our color tracking algorithm works most of the time but not under very backlit conditions.
 
