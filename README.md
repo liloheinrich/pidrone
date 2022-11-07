@@ -1,4 +1,3 @@
-# pidrone
 
 <img align="right" src="https://github.com/liloheinrich/pidrone/blob/main/IMG_3286_2.gif" width="500"/>
 
