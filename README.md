@@ -5,8 +5,7 @@ Tigey Jewell-Alibhai and Lilo Heinrich
 ### Goal
 Make a drone fly autonomously towards a color-detected object.
 
-<img src="https://github.com/liloheinrich/pidrone/blob/main/IMG_3286_2.gif" width="250"/>
-<img src="https://github.com/liloheinrich/pidrone/blob/main/IMG_3296.gif" width="250"/>
+<img src="https://github.com/liloheinrich/pidrone/blob/main/IMG_3286_2.gif" width="300"/> <img src="https://github.com/liloheinrich/pidrone/blob/main/IMG_3296.gif" width="300"/>
 
 <!-- ![PF2](https://github.com/liloheinrich/pidrone/blob/main/IMG_3286_2.gif)
 ![PF2](https://github.com/liloheinrich/pidrone/blob/main/IMG_3296.gif) -->
