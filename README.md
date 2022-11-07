@@ -8,7 +8,7 @@ Computational Robotics Fall 2022
 Tigey Jewell-Alibhai and Lilo Heinrich
 
 ### Goal
-Make a drone fly autonomously towards a color-detected object.
+Make a drone fly towards a color-detected object using ROS.
 
 <!-- <img src="https://github.com/liloheinrich/pidrone/blob/main/IMG_3286_2.gif" width="370"/> <img src="https://github.com/liloheinrich/pidrone/blob/main/IMG_3296.gif" width="450"/> -->
 
