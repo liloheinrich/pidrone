@@ -5,6 +5,8 @@ Tigey Jewell-Alibhai and Lilo Heinrich
 ### Goal
 Make a drone fly autonomously towards a color-detected object.
 
+- (videos of flying and color detecting)
+
 ### Solution
 - (system diagram here)
 
@@ -20,9 +22,11 @@ The color-based detection algorithm used the following steps to process the imag
   a. Picking the object with the largest area is likely the object that we want it to detect (the best match or closest object of the correct color).  
 4. To fly, hold at a certain altitude and yaw with an angular velocity proportional to how many pixels the x-coordinate is from the center of the screen.  
 
-- (videos of flying and color detecting)
+- (picture of grip pipeline)
 
 This color-detection algorithm is rather simple but effective. To make this algorithm work, we needed an object with a contrasting color to our background so we at first chose a neon yellow helmet. However, green grass as a close color to yellow and the helmet was glossy, worsening glare. The weaknesses of color filtering are that under different lighting conditions/environments our algorithm might have to be recalibrated, and that the angle of the camera in relation to the sun causes some images to be very backlit which we only realized once we moved outside. In the end we decided to track purple t shirts because they had a contrasting and easy to pick out color as well as a matte finish instead of glossy. Our color tracking algorithm works most of the time, but not under very backlit conditions.
+
+- (side by side of seeing t shirt vs not bc backlit)
 
 The camera stream was lagging significantly on the offboard laptop, so onboard control was a smart decision, as well as keeping our resolution low to keep the program running faster and take less time to process images. We wanted to put the raspi on the OLIN-DEVICES network rather than its own wifi network to increase the drone's autonomous range, but unfortunately this change messed up our ability to communicate to the drone in ROS because we needed to communicate to the pi through its hostname which was not working on OLIN-DEVICES, so we reverted this change. 
 
