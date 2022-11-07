@@ -1,5 +1,5 @@
 
-<img align="right" src="https://github.com/liloheinrich/uav-control/blob/main/IMG_3286_2.gif" width="500"/>
+<img align="right" src="https://github.com/liloheinrich/uav-control/blob/main/img/IMG_3286.gif" width="500"/>
 
 ## UAV Control
 
@@ -19,7 +19,7 @@ Make a UAV fly towards a color-detected object using ROS.
 ### Solution
 This project was equally about systems design and computer vision. On the systems side, we created a UAV platform which can be flown from ROS on the Raspberry Pi. On the Computer Vision side, we got a raspberry pi camera working and streaming the image data which can be viewed on a laptop from the ground as well as color-based object detection. We got started by following the examples of using ROS on the ArduCopter website.
 
-<img src="https://github.com/liloheinrich/uav-control/blob/main/system_diag_pidrone.PNG" width="800"/>
+<img src="https://github.com/liloheinrich/uav-control/blob/main/img/system_diagram.PNG" width="800"/>
 
 ### Design Decisions
 The color-based detection algorithm used the following steps to process the image:  
@@ -33,7 +33,7 @@ The color-based detection algorithm used the following steps to process the imag
   a. This is for safety, we want to yaw and not to translate (don't fly towards and attack the person).
 
 <!-- - (picture of grip pipeline, maybe a side by side of seeing t shirt vs not bc backlit) -->
-<img width="800" src="https://github.com/liloheinrich/uav-control/blob/main/IMG_3296.gif"/>
+<img width="800" src="https://github.com/liloheinrich/uav-control/blob/main/img/IMG_3296.gif"/>
 
 Color-detection algorithms are simple but effective. We needed an object with a contrasting color to our background so we at first chose a neon yellow helmet. However, grass as a close color and the helmet was glossy, creating glare. We switched to purple T-shirts which have a contrasting color as well as nonreflective. Some weaknesses of color filtering are that under different lighting conditions/environments our algorithm has to be recalibrated, and that the angle of the camera in relation to the sun causes some images to be very backlit which we only realized once we moved outside. Our color tracking algorithm works most of the time but not under very backlit conditions.
 
