@@ -23,7 +23,7 @@ Make a UAV fly towards a color-detected object using ROS.
 
 
 ### Solution
-This project was equally about systems design and computer vision. On the systems side, we created a UAV platform which can be flown from ROS on the Raspberry Pi. On the Computer Vision side, we got a raspberry pi camera working and streaming the image data which can be viewed on a laptop from the ground as well as color-based object detection. We got started by following the examples of using ROS on the ArduCopter website.
+This project was equally about systems design and computer vision. On the systems side, we created a UAV platform which can be flown from ROS on the Raspberry Pi. On the Computer Vision side, we got a raspberry pi camera working and streaming the image data which can be viewed on a laptop from the ground as well as color-based object detection. We got started by following the examples of using ROS on the ArduCopter website, specifically this [tutorial](https://ardupilot.org/dev/docs/ros-aruco-detection.html).
 
 <img src="https://github.com/liloheinrich/uav-control/blob/main/img/system_diagram.PNG" width="800"/>
 
